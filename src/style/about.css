@@ -1,0 +1,375 @@
+.banner-section{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #ffffff;
+    border-bottom: 25px solid #06a485;
+}
+.about-banner-image{
+    max-width: 320px;
+}
+.banner-section .container{
+    display: flex;
+    justify-content: left;
+    gap: 32px;
+    align-items: center;
+}
+.banner-content-p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner-content-p p{
+    background-image: linear-gradient(90deg, #05a887, #263139);
+    border: none;
+    border-radius: 24px;
+    color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: 600;
+    gap: 4px;
+    padding: 4px 12px;
+    margin-bottom: 0px;
+    /* width: 185px; */
+}
+.about-page-download-cv-btn button{
+    background-image: linear-gradient(90deg, #ff6767, #a729ff);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: 600;
+    gap: 4px;
+    padding: 7px 20px;
+}
+.about-page-heading{
+    text-align:center;
+    padding:2px;
+    border-radius:5px;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, #ff6767, #a729ff);
+    box-shadow: inset 0 0 10px rgb(31 31 31);
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 600;
+    /* border: 1px solid #7a7a7a; */
+}
+
+/* Language-section */
+.language-section{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.progress-bar-section{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    border-bottom: 10px solid #00302e;
+}
+.progress-bar-section .card{
+    background-image: linear-gradient(180deg, #08a486, #000000, #00302e);
+    border: 0px;
+    padding: 8px 20px 20px 20px;
+    border-radius: 50% 50% 0px 0px;
+}
+@property --progress-value {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+@keyframes beng-progress {
+    to { --progress-value: 100; }
+}
+@keyframes eng-progress {
+    to { --progress-value: 90; }
+}
+@keyframes hin-progress {
+    to { --progress-value: 85; }
+}
+.progress-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    /* border: 1px solid #8eb8d0; */
+}
+.progress-bar::before {
+    counter-reset: percentage var(--progress-value);
+    content: counter(percentage) '%';
+    animation: eng-progress 5s 1 forwards;
+    height: 128px;
+    width: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: inset 0 0 7px grey;
+    font-weight: 500;
+    padding-left: 2px;
+}
+.eng-progressbar{
+    background: radial-gradient(closest-side, #e6fffb 79%, transparent 80% 100%), conic-gradient(#ff6767, #ffd743, #ff6767 calc(var(--progress-value)* 1%), #ffffff 0);
+    animation: eng-progress 5s 1 forwards;
+}
+.eng-progressbar::before{
+    animation: eng-progress 5s 1 forwards;
+}
+.hin-progressbar{
+    background: radial-gradient(closest-side, #e6fffb 79%, transparent 80% 100%), conic-gradient(#ff6767, #a729ff, #ff6767 calc(var(--progress-value) * 1%), rgb(255, 255, 255) 0);
+    animation: hin-progress 5s 1 forwards;
+}
+.hin-progressbar::before{
+    animation: hin-progress 5s 1 forwards;
+}
+.beng-progressbar{
+    background: radial-gradient(closest-side, #e6fffb 79%, transparent 80% 100%), conic-gradient(#8667ff, #29deff, #8667ff calc(var(--progress-value)* 1%), white 0);
+    animation: beng-progress 5s 1 forwards;
+}
+.beng-progressbar::before{
+    animation: beng-progress 5s 1 forwards;
+}
+
+/* Education section */
+.education-details-section{
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.education-details-section .education-container{
+    position: relative;
+    background-image: linear-gradient(90deg, #000000, #3a001c);
+    border-radius: 8px;
+    padding: 12px;
+}
+.education-card-section{
+    width: 100%;
+}
+.education-card{
+    width: 100%;
+}
+
+.graduation-card{
+    justify-content: left;
+}
+.diploma-card{
+    justify-content: right;
+}
+.hs-card{
+    justify-content: left;
+}
+.secondary-card{
+    justify-content: right;
+}
+.education-card-body{
+    width: 48%;
+    position: relative;
+    background-color: transparent;
+}
+
+.card-body-node{
+    height: 18px;
+    border-radius: 50%;
+    width: 18px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #a5cd78;
+    position: absolute;
+    z-index: 100;
+    animation: node-opacity 3s;
+}
+@keyframes node-opacity {
+    0% {opacity: 0;}
+}
+.left-node{
+    right: -24px;
+    top: 50%;
+}
+.right-node{
+    left: -24px;
+    top: 50%;
+}
+.vl {
+    border-left: 6px solid #08a486;
+    height: 98%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    margin-top: 10px;
+}
+.education-card-body .card-body{
+    box-shadow: inset 0 0 10px grey;
+    border-radius: 5px;
+    background-color: white;
+    animation: card-progress 5s;
+}
+@keyframes card-progress {
+    from{
+        transform: rotateX(-95deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
+.education-card-body .card-body p{
+    margin-bottom: 6px;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.education-card-body .card-body .card-title{
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.education-card-body .card-body .card-sub-title{
+    margin-bottom: 12px;
+    color: #717171;
+    font-weight: 500;
+}
+.branch-name{
+    color: #778000;
+    font-weight: 500;
+}
+.grade-style{
+    background-image: linear-gradient(90deg, #05a887, #263139);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: 600;
+    gap: 4px;
+    padding: 4px 12px;
+    margin-top: 12px;
+    margin-bottom: 2px !important;
+    width: fit-content;
+}
+
+/* Hobby-section */
+.hobby-details-section{
+    padding: 0px 20px 40px 20px;
+}
+.hobby-card .card-group{
+    gap: 12px;
+}
+.hobby-card .card-group .card{
+    box-shadow: inset 0 0 10px grey;
+    border-radius: 8px;
+    border: 1px solid #d3d3d3;
+    animation: hobby-card 5s;
+}
+@keyframes hobby-card {
+    from{
+        transform: rotateY(-95deg);
+    }
+    to{
+        transform: rotateY(0deg);
+    }
+}
+
+.hobby-card .card-group .card img{
+    border-radius: 8px 8px 0px 0px !important;
+}
+
+@media(min-width:992px){
+    .progress-bar {
+        width: 160px;
+        height: 160px;
+    }
+    .progress-bar-section{
+        gap: 50px;
+    }
+    .left-node{
+        right: -29px;
+    }
+    .right-node{
+        left: -29px;
+    }
+}
+@media(min-width:1200px){
+    .left-node{
+        right: -33px;
+    }
+    .right-node{
+        left: -33px;
+    }
+}
+@media(min-width:1400px){
+    .left-node{
+        right: -36px;
+    }
+    .right-node{
+        left: -36px;
+    }
+}
+@media(max-width:991.98px){
+    .progress-bar::before{
+        height: 111px;
+        width: 111px;
+    }
+}
+@media(max-width:767.98px){
+    .banner-content-section{
+        text-align: center;
+    }
+    .banner-section .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about-page-download-cv-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-content-p{
+        justify-content: center;
+    }
+    .progress-bar-section{
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .education-card-body{
+        width: 96.5%;
+    }
+    .graduation-card{
+        justify-content: right;
+    }
+    .hs-card{
+        justify-content: right;
+    }
+    .vl{
+        left: 3%;
+        background-color: #017b64;
+    }
+    .left-node{
+        left: -24px;
+        top: 50%;
+    }
+    .diploma-card{
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .hs-card{
+        margin-bottom: 12px;
+    }
+    .hobby-card .card-group{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:599px){
+    .progress-bar {
+        width: 120px;
+        height: 120px;
+    }
+    .progress-bar-section{
+        gap: 20px;
+    }
+    .progress-bar::before{
+        height: 96px;
+        width: 96px;
+    }
+}

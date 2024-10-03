@@ -1,0 +1,142 @@
+.contact-me-banner{
+    width: 100%;
+    max-width: 500px;
+}
+.contact-banner-section .container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    border-right: 20px solid #ffd001;
+}
+.contact-banner-section{
+    background-color: #e1eced;
+    border-bottom: 20px solid #ffcf03;
+}
+.box {
+    width: 100%;
+    justify-content: right;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.flyer-container{
+    text-align: right;
+    position: relative;
+    height: 150px;
+}
+.contact-me-flyer{
+    width: 100%;
+    height: 240px;
+    max-width: 230px;
+    max-height: 230px;
+    margin-right: 5px;
+    position: absolute;
+    right: 0;
+    animation: glitch .4s linear infinite;
+    /* animation-delay: 10ms; */
+    /* animation: circle-img linear infinite 3s; */
+    /* box-shadow: inset 0 -3px 10px #57667a; */
+}
+@keyframes circle-img {
+    0% {
+        transform: translate(0);
+    }
+    40% {
+        transform: translate(-100px, 0px) rotate(-100deg);
+    }
+    60% {
+        transform: translate(-200px, 0px) rotate(-200deg);
+    }
+    80% {
+        transform: translate(-300px, 0px) rotate(-300deg);
+    }
+    100% {
+        transform: translate(-360px, 0px) rotate(-360deg);
+    }
+    100% {
+        transform: translate(0);
+    }
+
+}
+  
+.contact-heading-txt{
+    color: #ffce00;
+    text-shadow: 0 10px 7px rgba(0, 0, 0, 0.4), 0 -2px 1px #01503f;
+    /* border: 5px solid #7da3cd; */
+    padding: 10px 0px 14px 0px;;
+    border-radius: 8px;
+    animation: glitch .4s linear infinite;
+    background: #6ca1c8;
+    box-shadow: inset 0 -3px 10px #57667a;
+    text-align: center;
+    z-index: 999;
+}
+  
+@keyframes glitch {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translate(-2px, 2px);
+    }
+    40% {
+      transform: translate(-2px, -2px);
+    }
+    60% {
+      transform: translate(2px, 2px);
+    }
+    80% {
+      transform: translate(2px, -2px);
+    }
+    100% {
+      transform: translate(0);
+    }
+}
+
+
+.contact-me-links-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact-me-links-section  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffce00;
+    border-radius: 24px;
+}
+.contact-me-links-section .container .image-section img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 0px 24px 24px 0px;
+}
+
+@media(max-width:1199.98px) and (min-width:992px){
+    .contact-me-flyer{
+        max-width: 199px;
+        max-height: 205px;
+    }
+    .contact-me-banner{
+        max-width: 425px;
+    }
+}
+
+@media(max-width:991.98px) and (min-width:768px){
+    .contact-me-flyer{
+        max-width: 199px;
+        max-height: 205px;
+    }
+    .contact-me-banner{
+        max-width: 420px;
+    }
+}
+
+@media(max-width:767.98px){
+    .contact-banner-section .container{
+        flex-direction: column;
+    }
+    .flyer-container{
+        height: 170px;
+    }
+}
