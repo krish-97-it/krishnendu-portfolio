@@ -10,7 +10,7 @@ export default function Footer(){
                     <div className="portfolio-footer-row">
                         <div class="footer-profile-image-section">
                             <div class="footer-logo-wrapper text-center text-md-start">
-                                <img src={PrifileIcon} className="footer-profile-icon" alt="profile photo"/>
+                                <img src={PrifileIcon} className="footer-profile-icon" alt="profile"/>
                             </div>
                             <div className="portfolio-signature">
                                 <p>Personal portfolio by</p>
