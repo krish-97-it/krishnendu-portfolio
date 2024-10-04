@@ -39,7 +39,7 @@ const Homepage = ()=>{
                         <div className="home-about-me">
                             <div className="about-me-txt">
                                 <h3>About Me</h3>
-                                <p>Being a Developer, I always love to learn & develop something and my goal is always to improve my skill and efficiency more. My Journey was satrted in 2021. After Completing B.Tech in Information Technology, I have joined in an ICSE School as a part-time Programming Teacher and after few months I got opportunity to work in BYJU'S and later on 2023 I have joined WhitehatJr. Overall, I have over 3 years of experience of creating new Websites & Webpages, adding dynamic and user interactive features, Automation tool for controlling features from CMS etc.</p>
+                                <p>Being a Developer, I always love to learn & develop something new and my goal is always to improve my skills and efficiency more. My Journey was satrted in 2021 and after Completing B.Tech in Information Technology, I have joined in an ICSE School as a part-time Programming Teacher. After few months I got opportunity to work in BYJU'S and later on 2023 I have joined WhitehatJr. Overall, I have over 3 years of experience in creating new Websites & Webpages, adding dynamic and user interactive features, Automation tool for controlling features from CMS etc.</p>
                             </div>
                             <div className="profile-img">
                                 <img src={ProfileIcon2} alt="profile"/>

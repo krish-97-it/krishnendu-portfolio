@@ -5,6 +5,7 @@ import '../src/style/home.css'
 import '../src/style/footer.css'
 import '../src/style/about.css'
 import '../src/style/contact.css'
+import '../src/style/experience.css'
 
 function App() {
   return (

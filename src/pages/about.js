@@ -36,7 +36,7 @@ export default function About(){
                 </div>
                 <div className="language-section">
                     <div class="container">
-                        <h3 className="about-page-heading">Language Known</h3>
+                        <h5 className="about-page-heading">Language Known</h5>
                         <div className="progress-bar-section">
                             <div class="card-group">
                                 <div class="card">
@@ -67,7 +67,7 @@ export default function About(){
                 </div>
                 <div className="education-details-section">
                     <div className="container">
-                        <h3 className="about-page-heading">Educational Details</h3>
+                        <h5 className="about-page-heading">Educational Details</h5>
                         <div className="education-container">
                             <div className="education-card-section">
                                 <div className="d-flex education-card graduation-card">
@@ -78,7 +78,7 @@ export default function About(){
                                                 <h6 className="card-sub-title">[ 2017-2020 ]</h6>
                                                 <p class="branch-name">Information Technology</p>
                                                 <p class="collg-name">Govt. College Of Engineering & Ceramic Technology</p>
-                                                <p className="grade-style">Grade: 76.1%</p>
+                                                <p className="grade-style">Grade: 77.20%</p>
                                             </div>
                                         </div>
                                         <div className="card-body-node left-node"></div>
@@ -107,7 +107,7 @@ export default function About(){
                                             <h6 className="card-sub-title">[ 2012-2014 ]</h6>
                                             <p class="branch-name">Science</p>
                                             <p class="collg-name">Dasghara High School</p>
-                                            <p className="grade-style">Grade: 65.50%</p>
+                                            <p className="grade-style">Grade: 65.60%</p>
                                         </div>
                                         <div className="card-body-node left-node"></div>
                                     </div>
@@ -132,9 +132,9 @@ export default function About(){
                     </div>
                 </div>
 
-                <div className="hobby-details-section">
+                <div className="hobby-details-section mt-3">
                     <div className="container">
-                        <h3 className="about-page-heading">Hobbies</h3>
+                        <h5 className="about-page-heading">Hobbies</h5>
                         <div className="hobby-card">
                             <div class="card-group">
                                 <div class="card">
