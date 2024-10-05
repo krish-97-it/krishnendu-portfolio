@@ -319,7 +319,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                 <div class="card-body project-card-body">
                                     <div>
                                         <h5 class="card-title" style={{fontWeight:"600", color:"wheat"}}>Krishmish - Order Food Online</h5>
-                                        <p class="card-text">Have deeveloped a MERN stack applicationnfor a resturant online food service. Built several features - Email OTP login Flow, Food Cart, Wishlist, Order Foos, Order History, User Profile, User Session and data track on local storage by using React, Node, Mongo, Express.</p>
+                                        <p class="card-text">Have developed a MERN stack application for a resturant online food service. Built several features - Email OTP login Flow, Food Cart, Wishlist, Order Food, Order History, User Profile, User Session and data track on local storage by using React, Node, Mongo, Express.</p>
                                         <div>
                                             <NavLink to="https://krishmish-order.onrender.com/" className="download-resume-btn project-section-btn">Visit Once</NavLink> 
                                         </div>

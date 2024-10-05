@@ -22,7 +22,7 @@ const Homepage = ({DownloadCv})=>{
                             <div className="introduction-para">
                                 <p>Hi There,</p>
                                 <h3>My name is <span>Krishnendu Nandy</span></h3>
-                                <p>I am a Software Engineer from Kolkata, West Bengal having 3years of experience in website development and maintaince.</p>
+                                <p>I am a Software Engineer from Kolkata, West Bengal having 3years of experience in website development and maintenance.</p>
                                 <div className="profile-button-section">
                                     <button onClick={DownloadCv}>
                                         Download CV
