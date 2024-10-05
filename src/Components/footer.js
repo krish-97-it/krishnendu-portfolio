@@ -20,12 +20,13 @@ export default function Footer({DownloadCv}){
                         <div className="footer-quick-links-section">
                             <h5>Quick Links:</h5>
                             <div className="footer-links-section">
-                                <button onClick={DownloadCv}>Download Cv</button>
+                                <button onClick={DownloadCv}>Download Resume</button>
                                 <NavLink className="btn-link" to="/about-me/">Education</NavLink>
                                 <NavLink className="btn-link" to="/skill-and-experience">Skills</NavLink>
                                 <NavLink className="btn-link" to="mailto:krishnendunandy6@gmail.com">Email Me</NavLink>
-                                <button className="btn-link" to="https://www.linkedin.com/in/krishnendu-1997tech/">Connect On Linkedin</button>
+                                <button className="btn-link" to="https://www.linkedin.com/in/krishnendu-1997tech/">Linkedin Profile</button>
                                 <NavLink className="btn-link" to="https://github.com/krish-97-it">My Github</NavLink>
+                                <NavLink className="btn-link" to="/contact-me">Contact Me</NavLink>
                             </div>
                         </div>
                     </div>

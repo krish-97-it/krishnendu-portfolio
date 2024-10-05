@@ -8,7 +8,13 @@ import GithubIcon from '../asset/github.png';
 import CallIcon from '../asset/call-icon.png';
 import GoToTop from "../Components/go-to-top";
 import { NavLink } from "react-router-dom";
-export default function Contact(){
+import linkedin from "../asset/tool-icons/likedin.png";
+import gmail from "../asset/tool-icons/gmail.png";
+import fb from "../asset/tool-icons/fb.png";
+import whatsapp from "../asset/tool-icons/whatsapp.png";
+import copyUrl from '../asset/tool-icons/copy.png'
+
+export default function Contact({copyURL, toolTip}){
     return(
         <div className="app-body">
             <div className="main-content">
@@ -61,6 +67,21 @@ export default function Contact(){
                             </div>
                             <div className="image-section">
                                 <img src={contactIcon} alt="banner"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="share-my-profile">
+                    <div className="container">
+                        <h5 className="about-page-heading">Share portfolio on:</h5>
+                        <div className="share-on-icons">
+                            <NavLink to={"https://www.linkedin.com/shareArticle?mini=true&url="+window.location.origin+"&title=Krishnendu%20Nandy%20Portfolio"}><img src={linkedin} alt="linkedin" to=""/></NavLink>
+                            <NavLink to={"https://www.addtoany.com/add_to/facebook?linkurl="+window.location.origin+"&linkname=Krishnendu%20Nandy%20Portfolio"}><img src={fb} alt="fb"/></NavLink>
+                            <NavLink to={"mailto:?subject=Krishnendu%20Nandy%20Portfolio&body="+window.location.origin}><img src={gmail} alt="gmail"/></NavLink>
+                            <NavLink to={"https://api.whatsapp.com/send?text="+window.location.origin}><img src={whatsapp} alt="whatsapp"/></NavLink>
+                            <div className="copy-btn-section" style={{position:"relative"}}>
+                                <button onClick={copyURL}><img src={copyUrl} alt="copy"/></button>
+                                <span className="copy-tooltip" show-tooltip={toolTip}>Copied!</span>
                             </div>
                         </div>
                     </div>

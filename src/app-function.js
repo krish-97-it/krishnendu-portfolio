@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Header from "./Components/header";
 import Footer from "./Components/footer";
@@ -28,6 +28,15 @@ export default function MainFunction(){
         return true;
     }
 
+    const [toolTip, setToolTip] = useState('false')
+    function copyURL(){
+        navigator.clipboard.writeText(window.location.origin);
+        setToolTip('true');
+        setTimeout(function(){
+            setToolTip('false');
+        },1000)
+    }
+
     return(
         <Router>
             <Header />
@@ -35,7 +44,7 @@ export default function MainFunction(){
                 <Route exact path="/" element={<Homepage DownloadCv={DownloadCv}/>}/>
                 <Route exact path="/about-me" element={<About/>}/>
                 <Route exact path="/skill-and-experience" element={<Experience DownloadCv={DownloadCv} GlobsynCertificate={GlobsynCertificate} OgmaCertificate={OgmaCertificate}/>}/>
-                <Route exact path="/contact-me" element={<Contact/>}/>
+                <Route exact path="/contact-me" element={<Contact copyURL={copyURL} toolTip={toolTip}/>}/>
                 <Route exact path="*" element={<Errorpage />} />
             </Routes>
             <Footer DownloadCv={DownloadCv}/>

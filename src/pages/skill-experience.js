@@ -20,6 +20,8 @@ import sva from '../asset/tool-icons/sva.webp';
 import globsyn from '../asset/tool-icons/globsyn_business_school_logo.jpeg';
 import ogma from '../asset/tool-icons/ogma_techlab_logo.jpeg';
 import GoToTop from "../Components/go-to-top";
+import portfolio from "../asset/portfolio-ss.webp";
+import krishmish from "../asset/krishmish-ss.webp";
 
 export default function experience({DownloadCv, OgmaCertificate, GlobsynCertificate}){
     return(
@@ -167,23 +169,6 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                         </div>
                     </div>
                 </div>
-                <div className="Working-tools-section">
-                    <div className="container">
-                        <h5 className="about-page-heading">Working Tools & Softwares</h5>
-                        <div className="tool-icons">
-                            <img src={git} alt="git"/>
-                            <img src={gitbash} alt="git bash"/>
-                            <img src={postman} alt="postman"/>
-                            <img src={jira} alt="jira"/>
-                            <img src={sql} alt="workbench"/>
-                            <img src={mongo} alt="mongo"/>
-                            <img src={wamp} alt="wamp"/>
-                            <img src={mamp} alt="mamp"/>
-                            <img src={vscode} alt="vs code"/>
-                            <img src={sqlyog} alt="sql yog"/>
-                        </div>
-                    </div>
-                </div>
                 <div className="Working-experience-section">
                     <div className="container">
                         <h5 className="about-page-heading">Work Experiences</h5>
@@ -304,6 +289,58 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                             <button className="download-resume-btn" onClick={OgmaCertificate}>Download Cerificate</button>
                                         </li>
                                     </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="Working-tools-section mt-3">
+                    <div className="container">
+                        <h5 className="about-page-heading">Working Tools & Softwares</h5>
+                        <div className="tool-icons">
+                            <img src={git} alt="git"/>
+                            <img src={gitbash} alt="git bash"/>
+                            <img src={postman} alt="postman"/>
+                            <img src={jira} alt="jira"/>
+                            <img src={sql} alt="workbench"/>
+                            <img src={mongo} alt="mongo"/>
+                            <img src={wamp} alt="wamp"/>
+                            <img src={mamp} alt="mamp"/>
+                            <img src={vscode} alt="vs code"/>
+                            <img src={sqlyog} alt="sql yog"/>
+                        </div>
+                    </div>
+                </div>
+                <div className="personal-websites-section mt-3">
+                    <div className="container">
+                        <h5 className="about-page-heading">Personal Websites</h5>
+                        <div className="projects-section">
+                            <div class="card card-one">
+                                <div class="card-body project-card-body">
+                                    <div>
+                                        <h5 class="card-title" style={{fontWeight:"600", color:"wheat"}}>Krishmish - Order Food Online</h5>
+                                        <p class="card-text">Have deeveloped a MERN stack applicationnfor a resturant online food service. Built several features - Email OTP login Flow, Food Cart, Wishlist, Order Foos, Order History, User Profile, User Session and data track on local storage by using React, Node, Mongo, Express.</p>
+                                        <div>
+                                            <NavLink to="https://krishmish-order.onrender.com/" className="download-resume-btn project-section-btn">Visit Once</NavLink> 
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src={krishmish} className="personal-website-ss" alt="KrishMish"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-two mt-3">
+                                <div class="card-body project-card-body">
+                                    <div>
+                                        <h5 class="card-title" style={{fontWeight:"600", color:"#185961"}}>Personal Portfolio</h5>
+                                        <p class="card-text">Have Created a Portfolio Website made with React Js, Bootstrap and Css with colorful designs and css animations. This website is hosted on Vercel</p>
+                                        <div>
+                                            <NavLink to="https://portfolio-krishnendu.vercel.app/" className="download-resume-btn project-section-btn">Portfolio Link</NavLink> 
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src={portfolio} className="personal-website-ss" alt="Portfolio"/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
