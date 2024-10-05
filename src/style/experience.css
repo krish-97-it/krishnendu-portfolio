@@ -33,7 +33,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
-    border-bottom: 6px solid #000000
+    border-bottom: 6px solid #000000;
 }
 .summary-skill-card .card-group .card{
     background-image: linear-gradient(90deg, #f17625, #f0c41d);
@@ -320,7 +320,68 @@
     border-radius: 50%;
     box-shadow: 0px 2px 10px #004765;
 }
+.Working-experience-section{
+    padding: 20px 0px;
+    background-image: url('../asset/pxfuel.webp');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-bottom: 6px solid #000000
+}
 
+.experience-title-section{
+    display: flex;
+    justify-content: left;
+    gap: 2px;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.experience-lists .card{
+    box-shadow: inset 0 0 10px rgb(31 31 31);
+}
+.experience-lists .card .card-header{
+    color: #ffffff;
+    background-color: #3c7378;
+}
+
+.experience-lists .card .card-body{
+    padding-top: 12px;
+}
+
+.experience-title-section h5{
+    margin-bottom: 0px;
+    margin-top: 2px;
+    color: #8600f3;
+}
+.experience-title-section img{
+    height: 36px;
+    width: 36px;
+    object-fit: contain;
+    margin-left: -4px;
+    border-radius: 50%;
+}
+.experience-websites{
+    /* list-style-type: none; */
+    padding: 0px 12px 0px 12px;
+}
+.experience-websites p{
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+.experience-websites a{
+    color: #007580;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: italic;
+}
+
+@media(max-width:575.98px){
+    .javscript-div{
+        margin-top: 12px;
+    }
+}
 @media(max-width:767.98px){
     .experience-summary{
         padding-left: 15px;

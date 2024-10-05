@@ -35,28 +35,28 @@ export default function About(){
                     </div>
                 </div>
                 <div className="language-section">
-                    <div class="container">
+                    <div className="container">
                         <h5 className="about-page-heading">Language Known</h5>
                         <div className="progress-bar-section">
-                            <div class="card-group">
-                                <div class="card">
-                                    <div class="progress-bar eng-progressbar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="card-group">
+                                <div className="card">
+                                    <div className="progress-bar eng-progressbar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                                     <h6 style={{textAlign:"center", color:"white", paddingTop:"12px", marginBottom:"0px"}}>
                                         English
                                     </h6>
                                 </div>
                             </div>
-                            <div class="card-group">
-                                <div class="card">
-                                    <div class="progress-bar hin-progressbar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="card-group">
+                                <div className="card">
+                                    <div className="progress-bar hin-progressbar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                     <h6 style={{textAlign:"center", color:"white", paddingTop:"12px", marginBottom:"0px"}}>
                                         Hindi
                                     </h6>
                                 </div>
                             </div>
-                            <div class="card-group">
-                                <div class="card">
-                                    <div class="progress-bar beng-progressbar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="card-group">
+                                <div className="card">
+                                    <div className="progress-bar beng-progressbar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                     <h6 style={{textAlign:"center", color:"white", paddingTop:"12px", marginBottom:"0px"}}>
                                         Bengali
                                     </h6>
@@ -73,11 +73,11 @@ export default function About(){
                                 <div className="d-flex education-card graduation-card">
                                     <div className="education-card-body card">
                                         <div className="animate-card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">B.Tech</h5>
+                                            <div className="card-body">
+                                                <h5 className="card-title">B.Tech</h5>
                                                 <h6 className="card-sub-title">[ 2017-2020 ]</h6>
-                                                <p class="branch-name">Information Technology</p>
-                                                <p class="collg-name">Govt. College Of Engineering & Ceramic Technology</p>
+                                                <p className="branch-name">Information Technology</p>
+                                                <p className="collg-name">Govt. College Of Engineering & Ceramic Technology</p>
                                                 <p className="grade-style">Grade: 77.20%</p>
                                             </div>
                                         </div>
@@ -88,11 +88,11 @@ export default function About(){
                             <div className="education-card-section">
                                 <div className="d-flex education-card diploma-card">
                                     <div className="education-card-body card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Diploma Engineering</h5>
+                                        <div className="card-body">
+                                            <h5 className="card-title">Diploma Engineering</h5>
                                             <h6 className="card-sub-title">[ 2014-2017 ]</h6>
-                                            <p class="branch-name">Computer Science & Technology</p>
-                                            <p class="collg-name">Central Calcutta Polytechnic</p>
+                                            <p className="branch-name">Computer Science & Technology</p>
+                                            <p className="collg-name">Central Calcutta Polytechnic</p>
                                             <p className="grade-style">Grade: 76.10%</p>
                                         </div>
                                         <div className="card-body-node right-node"></div>
@@ -102,11 +102,11 @@ export default function About(){
                             <div className="education-card-section">
                                 <div className="d-flex education-card hs-card">
                                     <div className="education-card-body card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Higher Secondary</h5>
+                                        <div className="card-body">
+                                            <h5 className="card-title">Higher Secondary</h5>
                                             <h6 className="card-sub-title">[ 2012-2014 ]</h6>
-                                            <p class="branch-name">Science</p>
-                                            <p class="collg-name">Dasghara High School</p>
+                                            <p className="branch-name">Science</p>
+                                            <p className="collg-name">Dasghara High School</p>
                                             <p className="grade-style">Grade: 65.60%</p>
                                         </div>
                                         <div className="card-body-node left-node"></div>
@@ -116,18 +116,18 @@ export default function About(){
                             <div className="education-card-section">
                                 <div className="d-flex education-card secondary-card">
                                     <div className="education-card-body card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Secondary Education</h5>
+                                        <div className="card-body">
+                                            <h5 className="card-title">Secondary Education</h5>
                                             <h6 className="card-sub-title">[ 2006-2012 ]</h6>
-                                            <p class="branch-name">General Subjects</p>
-                                            <p class="collg-name">Maharampur Matilal VidyaMandir</p>
+                                            <p className="branch-name">General Subjects</p>
+                                            <p className="collg-name">Maharampur Matilal VidyaMandir</p>
                                             <p className="grade-style">Grade: 80.42%</p>
                                         </div>
                                         <div className="card-body-node right-node"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="vl"></div>
+                            <div className="vl"></div>
                         </div>
                     </div>
                 </div>
@@ -136,23 +136,23 @@ export default function About(){
                     <div className="container">
                         <h5 className="about-page-heading">Hobbies</h5>
                         <div className="hobby-card">
-                            <div class="card-group">
-                                <div class="card">
-                                    <img src={PaintingIcon} class="card-img-top" alt="frontend"/>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Painting</h5>
+                            <div className="card-group">
+                                <div className="card">
+                                    <img src={PaintingIcon} className="card-img-top" alt="frontend"/>
+                                    <div className="card-body">
+                                        <h5 className="card-title">Painting</h5>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img src={ProgrammingIcon} class="card-img-top" alt="php-wordpress"/>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Programming</h5>
+                                <div className="card">
+                                    <img src={ProgrammingIcon} className="card-img-top" alt="php-wordpress"/>
+                                    <div className="card-body">
+                                        <h5 className="card-title">Programming</h5>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img src={MoviesIcon} class="card-img-top" alt="react"/>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Watching Movies</h5>
+                                <div className="card">
+                                    <img src={MoviesIcon} className="card-img-top" alt="react"/>
+                                    <div className="card-body">
+                                        <h5 className="card-title">Watching Movies</h5>
                                     </div>
                                 </div>
                             </div>

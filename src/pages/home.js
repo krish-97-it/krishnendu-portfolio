@@ -5,8 +5,9 @@ import ReactDevLogo from '../asset/reactjs-developer.webp';
 import PhpWpDevLogo from '../asset/php-wordpress-developer.webp';
 import FrontEndDevLogo from '../asset/frontend-developer.webp';
 import GoToTop from "../Components/go-to-top";
+import { NavLink } from "react-router-dom";
 
-const Homepage = ()=>{
+const Homepage = ({DownloadCv})=>{
     return(
         <div className="app-body">
              <div className="main-content homepage-body">
@@ -23,12 +24,12 @@ const Homepage = ()=>{
                                 <h3>My name is <span>Krishnendu Nandy</span></h3>
                                 <p>I am a Software Engineer from Kolkata, West Bengal having 3years of experience in website development and maintaince.</p>
                                 <div className="profile-button-section">
-                                    <button>
+                                    <button onClick={DownloadCv}>
                                         Download CV
                                     </button>
-                                    <button>
+                                    <NavLink to="/contact-me">
                                         Contact Me
-                                    </button>
+                                    </NavLink>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +47,7 @@ const Homepage = ()=>{
                             </div>
                         </div>
                         <div className="about-me-btn-section more-about-me-btn">
-                            <button>More About Me</button> 
+                            <NavLink to="/about-me">More About Me</NavLink> 
                         </div>
                     </div>
                 </div>
@@ -54,32 +55,32 @@ const Homepage = ()=>{
                     <div className="container">
                         <h3>Specialization</h3>
                         <div className="specialization-card">
-                            <div class="card-group">
-                                <div class="card">
-                                    <img src={FrontEndDevLogo} class="card-img-top" alt="frontend"/>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Frontend Developer</h5>
-                                        <p class="card-text">Skilled Front-end Developer with more than 3 years of experience in designing, developing and maintaining responsive web applications.</p>
+                            <div className="card-group">
+                                <div className="card">
+                                    <img src={FrontEndDevLogo} className="card-img-top" alt="frontend"/>
+                                    <div className="card-body">
+                                        <h5 className="card-title">Frontend Developer</h5>
+                                        <p className="card-text">Skilled Front-end Developer with more than 3 years of experience in designing, developing and maintaining responsive web applications.</p>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img src={PhpWpDevLogo} class="card-img-top" alt="php-wordpress"/>
-                                    <div class="card-body">
-                                        <h5 class="card-title">PHP/WordPress Developer</h5>
-                                        <p class="card-text">Experinced in creating and managing web applications with WordPress CMS using PHP, MySQL, HTML, CSS, JS</p>
+                                <div className="card">
+                                    <img src={PhpWpDevLogo} className="card-img-top" alt="php-wordpress"/>
+                                    <div className="card-body">
+                                        <h5 className="card-title">PHP/WordPress Developer</h5>
+                                        <p className="card-text">Experinced in creating and managing web applications with WordPress CMS using PHP, MySQL, HTML, CSS, JS</p>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <img src={ReactDevLogo} class="card-img-top" alt="react"/>
-                                    <div class="card-body">
-                                        <h5 class="card-title">React Developer</h5>
-                                        <p class="card-text">Builts responsive, browser based, single page web applications using React Js, Node Js, Express Js and MongoDb.</p>
+                                <div className="card">
+                                    <img src={ReactDevLogo} className="card-img-top" alt="react"/>
+                                    <div className="card-body">
+                                        <h5 className="card-title">React Developer</h5>
+                                        <p className="card-text">Builts responsive, browser based, single page web applications using React Js, Node Js, Express Js and MongoDb.</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="about-me-btn-section">
-                                <button>Check my Experience</button> 
+                                <NavLink to="/skill-and-experience">Check my Experience</NavLink> 
                             </div>
                         </div>
                     </div>

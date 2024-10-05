@@ -7,6 +7,7 @@ import GmailIcon from '../asset/gmail.png';
 import GithubIcon from '../asset/github.png';
 import CallIcon from '../asset/call-icon.png';
 import GoToTop from "../Components/go-to-top";
+import { NavLink } from "react-router-dom";
 export default function Contact(){
     return(
         <div className="app-body">
@@ -33,28 +34,28 @@ export default function Contact(){
                                     <img src={LinkedinIcon} alt="linkedin"/>
                                     <div className="social-icon-body">
                                         <h6>Let's Connect Over Linked In</h6>
-                                        <button className="btn btn-primary social-icon-btn">Visit Profile</button>
+                                        <NavLink className="btn btn-primary social-icon-btn" to="https://www.linkedin.com/in/krishnendu-1997tech/">Visit Profile</NavLink>
                                     </div>
                                 </div>
                                 <div className="social-icons">
                                     <img src={GmailIcon} alt="gmail"/>
                                     <div className="social-icon-body">
                                         <h6>Drop a Mail to contact me on Gmail</h6>
-                                        <button className="btn btn-primary social-icon-btn">Drop Mail</button>
+                                        <NavLink className="btn btn-primary social-icon-btn" to="mailto:krishnendunandy6@gmail.com">Drop Mail</NavLink>
                                     </div>
                                 </div>
                                 <div className="social-icons">
                                     <img src={CallIcon} alt="call"/>
                                     <div className="social-icon-body">
                                         <h6>Give a Phone Call on my mobile number</h6>
-                                        <button className="btn btn-primary social-icon-btn">Call Me</button>
+                                        <NavLink className="btn btn-primary social-icon-btn" to="tel:+918768119770">Call Me</NavLink>
                                     </div>
                                 </div>
                                 <div className="social-icons">
                                     <img src={GithubIcon} alt="github"/>
                                     <div className="social-icon-body">
                                         <h6>Visit my Github Profile</h6>
-                                        <button className="btn btn-primary social-icon-btn">Visit Profile</button>
+                                        <NavLink className="btn btn-primary social-icon-btn" to="https://github.com/krish-97-it">Visit Profile</NavLink>
                                     </div>
                                 </div>
                             </div>
