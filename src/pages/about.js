@@ -120,7 +120,7 @@ export default function About(){
                                             <h5 className="card-title">Secondary Education</h5>
                                             <h6 className="card-sub-title">[ 2006-2012 ]</h6>
                                             <p className="branch-name">General Subjects</p>
-                                            <p className="collg-name">Maharampur Matilal VidyaMandir</p>
+                                            <p className="collg-name">Maharampur Matilal Vidyamandir</p>
                                             <p className="grade-style">Grade: 80.42%</p>
                                         </div>
                                         <div className="card-body-node right-node"></div>
