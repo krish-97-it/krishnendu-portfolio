@@ -58,7 +58,7 @@
     font-weight: 600;
     font-size: 22px;
 }
-.introduction-para button{
+.introduction-para button, .introduction-para a{
     background-image: linear-gradient(90deg, #ff6767, #a729ff);
     border: none;
     border-radius: 8px;
@@ -68,6 +68,7 @@
     font-weight: 600;
     gap: 4px;
     padding: 7px 20px;
+    text-decoration: none;
 }
 .about-me-section{
     background-image: url('https://img.perceptpixel.com/pykhlszs/portfolio/bg-image-one.webp');
@@ -116,7 +117,7 @@
     border-radius: 15px;
     margin-top: 5px;
 }
-.about-me-btn-section button{
+.about-me-btn-section button, .about-me-btn-section a{
     margin-top: 12px;
     background-image: linear-gradient(90deg, #5e85f1, #b526ee);
     border: 8px dashed #000000;
@@ -128,10 +129,12 @@
     gap: 4px;
     padding: 6px 20px 8px 20px;
     box-shadow: inset 0 -3px 10px #252525;
+    text-decoration: none;
 }
-.more-about-me-btn button{
+.more-about-me-btn button, .more-about-me-btn a{
     border: none;
     padding: 3px 20px 5px;
+    text-decoration: none;
 }
 .about-me-section h3{
     color: wheat;

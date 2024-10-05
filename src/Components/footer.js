@@ -2,14 +2,14 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import PrifileIcon from "../asset/kn-profile.webp";
 
-export default function Footer(){
+export default function Footer({DownloadCv}){
     return(
-        <footer class="footer">
+        <footer className="footer">
             <div className="portfolio-footer-section">
                 <div className="container">
                     <div className="portfolio-footer-row">
-                        <div class="footer-profile-image-section">
-                            <div class="footer-logo-wrapper text-center text-md-start">
+                        <div className="footer-profile-image-section">
+                            <div className="footer-logo-wrapper text-center text-md-start">
                                 <img src={PrifileIcon} className="footer-profile-icon" alt="profile"/>
                             </div>
                             <div className="portfolio-signature">
@@ -20,12 +20,12 @@ export default function Footer(){
                         <div className="footer-quick-links-section">
                             <h5>Quick Links:</h5>
                             <div className="footer-links-section">
-                                <button>Download Cv</button>
-                                <NavLink className="btn-link" to="/about-me/#education">Education</NavLink>
+                                <button onClick={DownloadCv}>Download Cv</button>
+                                <NavLink className="btn-link" to="/about-me/">Education</NavLink>
                                 <NavLink className="btn-link" to="/skill-and-experience">Skills</NavLink>
-                                <NavLink className="btn-link" to="/contact-me">Email Me</NavLink>
-                                <button className="btn-link">Connect On Linkedin</button>
-                                <button>My Github</button>
+                                <NavLink className="btn-link" to="mailto:krishnendunandy6@gmail.com">Email Me</NavLink>
+                                <button className="btn-link" to="https://www.linkedin.com/in/krishnendu-1997tech/">Connect On Linkedin</button>
+                                <NavLink className="btn-link" to="https://github.com/krish-97-it">My Github</NavLink>
                             </div>
                         </div>
                     </div>
