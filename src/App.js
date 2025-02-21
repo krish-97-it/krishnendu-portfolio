@@ -1,4 +1,5 @@
 import MainFunction from './app-function';
+import 'aos/dist/aos.css';
 import './App.css';
 import '../src/style/header.css'
 import '../src/style/home.css'

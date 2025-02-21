@@ -87,7 +87,8 @@
         flex-direction: column;
     }
     .footer-links-section{
-        flex-direction: column;
+        /* flex-direction: column; */
+        justify-content: center;
     }
     .footer-quick-links h5{
         text-align: center;

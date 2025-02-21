@@ -213,7 +213,7 @@
     box-shadow: inset 0 0 10px grey;
     border-radius: 5px;
     background-color: white;
-    animation: card-progress 5s;
+    /* animation: card-progress 5s; */
 }
 @keyframes card-progress {
     from{
@@ -267,7 +267,7 @@
     box-shadow: inset 0 0 10px grey;
     border-radius: 8px;
     border: 1px solid #d3d3d3;
-    animation: hobby-card 5s;
+    /* animation: hobby-card 5s; */
 }
 @keyframes hobby-card {
     from{

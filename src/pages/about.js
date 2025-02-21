@@ -69,7 +69,7 @@ export default function About(){
                     <div className="container">
                         <h5 className="about-page-heading">Educational Details</h5>
                         <div className="education-container">
-                            <div className="education-card-section">
+                            <div className="education-card-section" data-aos="flip-up" data-aos-duration="1500" data-aos-offset="100">
                                 <div className="d-flex education-card graduation-card">
                                     <div className="education-card-body card">
                                         <div className="animate-card">
@@ -85,7 +85,7 @@ export default function About(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="education-card-section">
+                            <div className="education-card-section" data-aos="flip-down" data-aos-duration="1500" data-aos-offset="100">
                                 <div className="d-flex education-card diploma-card">
                                     <div className="education-card-body card">
                                         <div className="card-body">
@@ -99,7 +99,7 @@ export default function About(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="education-card-section">
+                            <div className="education-card-section" data-aos="flip-up" data-aos-duration="1500" data-aos-offset="100">
                                 <div className="d-flex education-card hs-card">
                                     <div className="education-card-body card">
                                         <div className="card-body">
@@ -113,7 +113,7 @@ export default function About(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="education-card-section">
+                            <div className="education-card-section" data-aos="flip-down" data-aos-duration="1500" data-aos-offset="100" data-aos-easing="ease-in-quad">
                                 <div className="d-flex education-card secondary-card">
                                     <div className="education-card-body card">
                                         <div className="card-body">
@@ -137,19 +137,19 @@ export default function About(){
                         <h5 className="about-page-heading">Hobbies</h5>
                         <div className="hobby-card">
                             <div className="card-group">
-                                <div className="card">
+                                <div className="card" data-aos="fade-up" data-aos-duration="1200" data-aos-offset="50">
                                     <img src={PaintingIcon} className="card-img-top" alt="frontend"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Painting</h5>
                                     </div>
                                 </div>
-                                <div className="card">
+                                <div className="card" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                                     <img src={ProgrammingIcon} className="card-img-top" alt="php-wordpress"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Programming</h5>
                                     </div>
                                 </div>
-                                <div className="card">
+                                <div className="card" data-aos="fade-up" data-aos-duration="1800" data-aos-offset="50">
                                     <img src={MoviesIcon} className="card-img-top" alt="react"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Watching Movies</h5>
