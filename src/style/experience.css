@@ -38,7 +38,7 @@
 }
 .summary-skill-card .card-group .card{
     background-image: linear-gradient(90deg, #f17625, #f0c41d);
-    animation: specialization-card-progress 5s;
+    /* animation: specialization-card-progress 5s; */
 }
 .summary-skill-card .card-group .card .card-body{
     background-color: #fffae9;
@@ -389,6 +389,11 @@
 }
 .projects-section .card-two{
     background-color: #f6deb3e0;
+    box-shadow: inset 0 0 10px rgb(0 0 0);
+    color: rgb(0, 0, 0);
+}
+.projects-section .card-three{
+    background-color: #fffae9;
     box-shadow: inset 0 0 10px rgb(0 0 0);
     color: rgb(0, 0, 0);
 }

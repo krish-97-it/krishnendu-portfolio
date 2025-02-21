@@ -22,6 +22,7 @@ import ogma from '../asset/tool-icons/ogma_techlab_logo.jpeg';
 import GoToTop from "../Components/go-to-top";
 import portfolio from "../asset/portfolio-ss.webp";
 import krishmish from "../asset/krishmish-ss.webp";
+import RiyaCaterer from "../asset/Riya-Caterer.webp";
 
 export default function experience({DownloadCv, OgmaCertificate, GlobsynCertificate}){
     return(
@@ -32,8 +33,8 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                         <img src={SkillBanner} className="skill-experience-banner" alt="banner"/>
                         <div className="experience-summary">
                             <h3>Overview</h3>
-                            <p>
-                                I have more than 3 years' experience in building and maintaining rich web applications that serves million of users all over the world. Below is a brief details of my experience along with my main technical skill sets and tools I use. You can check and download my resume also. 
+                            <p data-aos="fade-out" data-aos-duration="1800" data-aos-offset="0">
+                                I have more than 3.7 years+ experience in building and maintaining rich web applications that serves million of users all over the world. Below is a brief details of my experience along with my main technical skill sets and tools I use. You can check and download my resume also. 
                             </p>
                             <button className="download-resume-btn" onClick={DownloadCv}>Download Resume</button>
                         </div>
@@ -44,7 +45,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                         <h5 className="about-page-heading">Highlighted Skills</h5>
                         <div className="specialization-card summary-skill-card">
                             <div className="card-group">
-                                <div className="card">
+                                <div className="card" data-aos="flip-right" data-aos-duration="1500" data-aos-offset="50">
                                     <img src={FrontendLogo} className="card-img-top" alt="frontend"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Frontend</h5>
@@ -58,7 +59,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="card">
+                                <div className="card" data-aos="flip-right" data-aos-duration="1500" data-aos-offset="50">
                                     <img src={BackendLogo} className="card-img-top" alt="php-wordpress"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Backend</h5>
@@ -72,7 +73,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                         </ul>  
                                     </div>
                                 </div>
-                                <div className="card">
+                                <div className="card" data-aos="flip-right" data-aos-duration="1500" data-aos-offset="50">
                                     <img src={Others} className="card-img-top" alt="react"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Others</h5>
@@ -173,7 +174,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                     <div className="container">
                         <h5 className="about-page-heading">Work Experiences</h5>
                         <div className="experience-lists">
-                            <div className="card">
+                            <div className="card" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
                                 <h5 className="card-header">July 2023 - Current</h5>
                                 <div className="card-body">
                                     <div className="experience-title-section">
@@ -215,7 +216,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                     </div>
                                 </div>
                             </div>
-                            <div className="card mt-3">
+                            <div className="card mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
                                 <h5 className="card-header">June 2021 - June 2023</h5>
                                 <div className="card-body">
                                     <div className="experience-title-section">
@@ -244,7 +245,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                     </div>
                                 </div>
                             </div>
-                            <div className="card mt-3">
+                            <div className="card mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
                                 <h5 className="card-header">January 2021 - June 2021</h5>
                                 <div className="card-body">
                                     <div className="experience-title-section">
@@ -259,7 +260,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                     </ul>
                                 </div>
                             </div>
-                            <div className="card mt-3">
+                            <div className="card mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
                                 <h5 className="card-header">Jun 2019 - July 2019</h5>
                                 <div className="card-body">
                                     <div className="experience-title-section">
@@ -275,7 +276,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                     </ul>
                                 </div>
                             </div>
-                            <div className="card mt-3">
+                            <div className="card mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
                                 <h5 className="card-header">January 2019 - February 2019</h5>
                                 <div className="card-body">
                                     <div className="experience-title-section">
@@ -298,16 +299,16 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                     <div className="container">
                         <h5 className="about-page-heading">Working Tools & Softwares</h5>
                         <div className="tool-icons">
-                            <img src={git} alt="git"/>
-                            <img src={gitbash} alt="git bash"/>
-                            <img src={postman} alt="postman"/>
-                            <img src={jira} alt="jira"/>
-                            <img src={sql} alt="workbench"/>
-                            <img src={mongo} alt="mongo"/>
-                            <img src={wamp} alt="wamp"/>
-                            <img src={mamp} alt="mamp"/>
-                            <img src={vscode} alt="vs code"/>
-                            <img src={sqlyog} alt="sql yog"/>
+                            <img src={git} data-aos="fade-in" data-aos-duration="1500" data-aos-offset="50" alt="git"/>
+                            <img src={gitbash} data-aos="fade-in" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="100" alt="git bash"/>
+                            <img src={postman} data-aos="fade-in" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="200" alt="postman"/>
+                            <img src={jira} data-aos="fade-in" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="300" alt="jira"/>
+                            <img src={sql} data-aos="fade-in" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="400" alt="workbench"/>
+                            <img src={mongo} data-aos="fade-in" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="500" alt="mongo"/>
+                            <img src={wamp} data-aos="fade-in" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="600" alt="wamp"/>
+                            <img src={mamp} data-aos="fade-in" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="700" alt="mamp"/>
+                            <img src={vscode} data-aos="fade-in" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="800" alt="vs code"/>
+                            <img src={sqlyog} data-aos="fade-in" data-aos-duration="1500" data-aos-offset="50" data-aos-delay="900" alt="sql yog"/>
                         </div>
                     </div>
                 </div>
@@ -315,11 +316,25 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                     <div className="container">
                         <h5 className="about-page-heading">Personal Websites</h5>
                         <div className="projects-section">
-                            <div class="card card-one">
+                            <div class="card card-one" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                                 <div class="card-body project-card-body">
                                     <div>
-                                        <h5 class="card-title" style={{fontWeight:"600", color:"wheat"}}>Krishmish - Order Food Online</h5>
-                                        <p class="card-text">Have developed a MERN stack application for a resturant online food service. Built several features - Email OTP login Flow, Food Cart, Wishlist, Order Food, Order History, User Profile, User Session and data track on local storage by using React, Node, Mongo, Express.</p>
+                                        <h5 class="card-title" style={{fontWeight:"600", color:"wheat"}}>Riya Caterers - Food Catering Service</h5>
+                                        <p class="card-text">Have developed for a catering service based on MERN stack, HAVING different features - like booking form, cost calculator, customize chatbot, gallery image-viewer, aos animations etc.</p>
+                                        <div>
+                                            <NavLink to="https://riya-caterer.onrender.com/" className="download-resume-btn project-section-btn">Click here to visit</NavLink> 
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src={RiyaCaterer} className="personal-website-ss" alt="KrishMish"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-two mt-3" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
+                                <div class="card-body project-card-body">
+                                    <div>
+                                        <h5 class="card-title" style={{fontWeight:"600", color:"rgb(24, 89, 97)"}}>Krishmish - Order Food Online</h5>
+                                        <p class="card-text">Have deeveloped a MERN stack applicationnfor a resturant online food service. Built several features - Email OTP login Flow, Food Cart, Wishlist, Order Foos, Order History, User Profile, User Session and data track on local storage by using React, Node, Mongo, Express.</p>
                                         <div>
                                             <NavLink to="https://krishmish-order.onrender.com/" className="download-resume-btn project-section-btn">Visit Once</NavLink> 
                                         </div>
@@ -329,7 +344,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                     </div>
                                 </div>
                             </div>
-                            <div class="card card-two mt-3">
+                            <div class="card card-three mt-3" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                                 <div class="card-body project-card-body">
                                     <div>
                                         <h5 class="card-title" style={{fontWeight:"600", color:"#185961"}}>Personal Portfolio</h5>
