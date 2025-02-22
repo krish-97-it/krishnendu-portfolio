@@ -91,7 +91,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                         </div>
                     </div>
                 </div>
-                <div className="skills-analysis-section mt-3">
+                <div className="skills-analysis-section mt-3" id="skills">
                     <div className="container">
                         <h5 className="about-page-heading">Skill Analysis</h5>
                         <div className="skill-progress-bar row">
@@ -170,7 +170,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                         </div>
                     </div>
                 </div>
-                <div className="Working-experience-section">
+                <div className="Working-experience-section" id="experiences">
                     <div className="container">
                         <h5 className="about-page-heading">Work Experiences</h5>
                         <div className="experience-lists">
@@ -320,7 +320,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                 <div class="card-body project-card-body">
                                     <div>
                                         <h5 class="card-title" style={{fontWeight:"600", color:"wheat"}}>Riya Caterers - Food Catering Service</h5>
-                                        <p class="card-text">Have developed for a catering service based on MERN stack, HAVING different features - like booking form, cost calculator, customize chatbot, gallery image-viewer, aos animations etc.</p>
+                                        <p class="card-text">Have developed for a catering service based on MERN stack, having different features - like booking form, cost calculator, customize chatbot, gallery image-viewer, aos animations etc.</p>
                                         <div>
                                             <NavLink to="https://riya-caterer.onrender.com/" className="download-resume-btn project-section-btn">Click here to visit</NavLink> 
                                         </div>

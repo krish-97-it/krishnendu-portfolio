@@ -65,7 +65,7 @@ export default function About(){
                         </div>
                     </div>
                 </div>
-                <div className="education-details-section">
+                <div className="education-details-section" id="education">
                     <div className="container">
                         <h5 className="about-page-heading">Educational Details</h5>
                         <div className="education-container">

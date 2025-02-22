@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import PrifileIcon from "../asset/kn-profile.webp";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Footer({DownloadCv}){
     return(
@@ -21,7 +22,7 @@ export default function Footer({DownloadCv}){
                             <h5>Quick Links:</h5>
                             <div className="footer-links-section">
                                 <button onClick={DownloadCv}>Download Resume</button>
-                                <NavLink className="btn-link" to="/about-me/">Education</NavLink>
+                                 <HashLink to="/about-me#education" className="btn-link">Education</HashLink>
                                 <NavLink className="btn-link" to="/skill-and-experience">Skills</NavLink>
                                 <NavLink className="btn-link" to="mailto:krishnendunandy6@gmail.com">Email Me</NavLink>
                                 <button className="btn-link" to="https://www.linkedin.com/in/krishnendu-1997tech/">Linkedin Profile</button>
