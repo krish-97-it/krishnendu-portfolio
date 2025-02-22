@@ -1,3 +1,53 @@
+.contact-us-banner{
+    align-items: center;
+    background-color: #000;
+    background-image: url(https://img.perceptpixel.com/pykhlszs/riya_caterer/contsct-us-banner.webp);
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+}
+.contact-us-banner .transparent-bg{
+    background-color: #ffffffb3;
+    border-radius: 6px;
+    box-shadow: 0 2px 20px 4px #3e6e8675;
+    padding: 40px 15px 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-us-banner .transparent-bg p{
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact-us-banner .transparent-bg .img-flyer{
+    width: 100%;
+    height: 240px;
+    max-width: 230px;
+    max-height: 230px;
+    margin-right: 5px;
+    animation: glitch .4s linear infinite;
+}
+.quick-chat-btn-section a{
+    background-color: #24d366;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 25px 10px 20px; 
+    align-items: center;
+    border-radius: 12px;
+    min-width: 250px;
+    font-size: 20px;
+    gap: 10px;
+}
 .contact-me-banner{
     width: 100%;
     max-width: 500px;
@@ -108,8 +158,10 @@
 }
 .contact-me-links-section .container{
     background-image: linear-gradient(334deg, #d97a5d, #6ba1c8, #d97a5d);
-    padding: 20px;
+    padding: 10px;
     border-radius: 24px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 .contact-me-links-container{
     display: flex;
@@ -258,6 +310,14 @@
     }
     .copy-tooltip{
         left: -5px;
+    }
+    .quick-chat-btn-section a{
+        padding: 10px 15px 10px 10px; 
+        font-size: 20px;
+        gap: 5px;
+    }
+    .quick-chat-btn-section a img{
+        width: 36px;
     }
 }
 @media(max-width:423.98px){

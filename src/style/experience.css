@@ -433,3 +433,9 @@
         max-width: 100%;
     }
 }
+#skills{
+    scroll-margin-top: 65px;
+}
+#experiences{
+    scroll-margin-top: 56px;
+}

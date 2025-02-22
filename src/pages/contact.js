@@ -7,7 +7,8 @@ import GmailIcon from '../asset/gmail.png';
 import GithubIcon from '../asset/github.png';
 import CallIcon from '../asset/call-icon.png';
 import GoToTop from "../Components/go-to-top";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import chat from "../asset/whatsapp_icon_48.svg";
 import linkedin from "../asset/tool-icons/likedin.png";
 import gmail from "../asset/tool-icons/gmail.png";
 import fb from "../asset/tool-icons/fb.png";
@@ -18,7 +19,23 @@ export default function Contact({copyURL, toolTip}){
     return(
         <div className="app-body">
             <div className="main-content">
-                <div className="contact-banner-section">
+                <div className="contact-us-banner">
+                    <div className="container">
+                        <div className="transparent-bg">
+                            <p data-aos="fade-out" data-aos-duration="1800" data-aos-offset="50">
+                               Feel free to connect with me at anytime. Lets's have a quick chat.
+                            </p>
+                            <img data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="50" src={ContactFlyer} className="img-flyer" alt="banner"/>
+                            <div className="quick-chat-btn-section" data-aos="fade-up" data-aos-duration="1200" data-aos-offset="50">
+                                <Link to="https://wa.me/+91876819770?text=Hello%21%21" target="_blank">
+                                    <img alt="WhatsApp" src={chat}/>
+                                    <span>Chat on WhatsApp</span>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* <div className="contact-banner-section">
                     <div className="container">
                         <img src={BannerTwo} alt="banner" className="contact-me-banner"/>
                         <div className="box">
@@ -30,10 +47,10 @@ export default function Contact({copyURL, toolTip}){
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="contact-me-links-section">
-                    <div className="container">
+                    <div className="container" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="50">
                         <div className="contact-me-links-container">
                             <div className="contact-links">
                                 <div className="social-icons">

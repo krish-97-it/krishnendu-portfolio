@@ -9,6 +9,7 @@ import { NavLink } from "react-router-dom";
 import FourMonksLogo from '../asset/4_monks.svg';
 import ByjusLogo from '../asset/byjus_logo.svg';
 import WhjrLogo from '../asset/whjr_logo.webp';
+import { HashLink } from 'react-router-hash-link';
 
 const Homepage = ({DownloadCv})=>{
     return(
@@ -83,7 +84,7 @@ const Homepage = ({DownloadCv})=>{
                             </div>
 
                             <div className="about-me-btn-section">
-                                <NavLink to="/skill-and-experience">View All Skills</NavLink> 
+                            <HashLink to="/skill-and-experience#skills" className="text-reset">View All Skills</HashLink>
                             </div>
                         </div>
                     </div>
@@ -111,7 +112,7 @@ const Homepage = ({DownloadCv})=>{
                             </div>
 
                             <div className="about-me-btn-section">
-                                <NavLink to="/skill-and-experience">Check More</NavLink> 
+                                <HashLink to="/skill-and-experience#experiences" className="text-reset">Check More</HashLink>
                             </div>
                         </div>
                     </div>
