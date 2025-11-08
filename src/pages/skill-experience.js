@@ -34,7 +34,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                         <div className="experience-summary">
                             <h3>Overview</h3>
                             <p data-aos="fade-out" data-aos-duration="1800" data-aos-offset="0">
-                                I have more than 3.7 years+ experience in building and maintaining rich web applications that serves million of users all over the world. Below is a brief details of my experience along with my main technical skill sets and tools I use. You can check and download my resume also. 
+                                I have more than 4.5 years experience in building and maintaining rich web applications that serves million of users all over the world. Below is a brief details of my experience along with my main technical skill sets and tools I use. You can check and download my resume also. 
                             </p>
                             <button className="download-resume-btn" onClick={DownloadCv}>Download Resume</button>
                         </div>
@@ -56,6 +56,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                             <li>JavaScript</li>
                                             <li>JQuery</li>
                                             <li>React Js</li>
+                                            <li>NextJs</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -70,6 +71,7 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                             <li>Mongo Db</li>
                                             <li>Express Js</li>
                                             <li>Api Development</li>
+                                            <li>WordPress</li>
                                         </ul>  
                                     </div>
                                 </div>
@@ -78,7 +80,8 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                     <div className="card-body">
                                         <h5 className="card-title">Others</h5>
                                         <ul className="skill-list">
-                                            <li>WordPress</li>
+                                            <li>Shopify</li>
+                                            <li>Strapi</li>
                                             <li>Java Basics</li>
                                             <li>Python Basics</li>
                                             <li>Unit Testing</li>
@@ -112,6 +115,10 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                                 <div className="progress-bar reactjs-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div className="col-sm-6 mt-3">
+                                <h6>Next Js</h6>
+                                <div className="progress-bar reactjs-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div className="col-sm-6 mt-3">
                                 <h6>WordPress</h6>
                                 <div className="progress-bar wordpress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -134,6 +141,10 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                             <div className="col-sm-6 mt-3">
                                 <h6>Mongo DB</h6>
                                 <div className="progress-bar mongo-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div className="col-sm-6 mt-3">
+                                <h6>Shopify</h6>
+                                <div className="progress-bar shopify-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div className="col-sm-6 mt-3">
                                 <h6>Java</h6>
@@ -175,7 +186,47 @@ export default function experience({DownloadCv, OgmaCertificate, GlobsynCertific
                         <h5 className="about-page-heading">Work Experiences</h5>
                         <div className="experience-lists">
                             <div className="card" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
-                                <h5 className="card-header">July 2023 - Current</h5>
+                                <h5 className="card-header">February 2025 - Current</h5>
+                                <div className="card-body">
+                                    <div className="experience-title-section">
+                                        <img src={whjr} alt="whitehatjr"/>
+                                        <h5 className="card-title">4Monks Consulting LLP</h5>
+                                    </div>
+                                    <h5 className="card-title">Full Stack Developer</h5>
+                                    <div className="description-section">
+                                        <p className="card-text">Develop and Manage Websites for various clients, working in both frontend and Backend.</p>
+                                        <ul className="experience-websites">
+                                            <li>
+                                                <p>
+                                                    <NavLink to="https://portl.co/">Portl.co</NavLink> - Worked on User Review Section, created plugins to manage and approves reviews on CMS and Developed UI to show Reviews and Form for review submission.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <NavLink to="https://theearthscape.com/">The Earthscape</NavLink> - Majorly worked On Backend on this newly launched website to Make the entire website dynamic to change and modify content from CMS and also Created Few Interactive Modals and Forms to increase and Redirect Leads.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <NavLink to="https://shop.atherenergy.com/">Ather Shop</NavLink> - Contributing to the ongoing development and maintenance of Ather’s Shopify website, implementing frequent updates and custom features through Shopify Theme Development and Liquid programming.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <NavLink to="https://www.2pintsbrewing.com/"> 2PB </NavLink>- Created Custom Fields and integrated Frontend Code to make the entire website dynamic & controllable from CMS.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <NavLink to="https://lagos.co.in/"> Lagos </NavLink>- working to manage this website on modifying UI, small fixes and content changes. 
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
+                                <h5 className="card-header">July 2023 - July 2025</h5>
                                 <div className="card-body">
                                     <div className="experience-title-section">
                                         <img src={whjr} alt="whitehatjr"/>
