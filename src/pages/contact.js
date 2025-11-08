@@ -1,5 +1,5 @@
 import React from "react";
-import BannerTwo from '../asset/contact-me-two.webp';
+// import BannerTwo from '../asset/contact-me-two.webp';
 import contactIcon from '../asset/contact-me.webp';
 import ContactFlyer from '../asset/contact-flyer-tansparent.webp'
 import LinkedinIcon from '../asset/linkedin.png';
@@ -90,7 +90,7 @@ export default function Contact({copyURL, toolTip}){
                 </div>
                 <div className="share-my-profile">
                     <div className="container">
-                        <h5 className="about-page-heading">Share portfolio on:</h5>
+                        <h5 className="about-page-heading">Share Portfolio</h5>
                         <div className="share-on-icons">
                             <NavLink to={"https://www.linkedin.com/shareArticle?mini=true&url="+window.location.origin+"&title=Krishnendu%20Nandy%20Portfolio"}><img src={linkedin} alt="linkedin" to=""/></NavLink>
                             <NavLink to={"https://www.addtoany.com/add_to/facebook?linkurl="+window.location.origin+"&linkname=Krishnendu%20Nandy%20Portfolio"}><img src={fb} alt="fb"/></NavLink>

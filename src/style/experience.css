@@ -124,6 +124,14 @@
 .wordpress-bar::before{
     animation: wordpress-progress 5s 1 forwards;
 }
+.shopify-bar{
+    animation: shopify-progress 5s 1 forwards, glitch .4s linear infinite;
+    animation-delay: 0s, 4.8s;
+    background: linear-gradient(to right, #ffa600 calc(var(--progress-value)* 1%), #ffedd1 0);
+}
+.shopify-bar::before{
+    animation: shopify-progress 5s 1 forwards;
+}
 
 .reactjs-bar{
     animation: reactjs-progress 5s 1 forwards, glitch .4s linear infinite;
@@ -265,6 +273,9 @@
 }
 @keyframes wordpress-progress {
     to { --progress-value: 90; }
+}
+@keyframes shopify-progress {
+    to { --progress-value: 80; }
 }
 @keyframes node-progress {
     to { --progress-value: 80;}

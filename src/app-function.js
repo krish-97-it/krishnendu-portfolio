@@ -38,7 +38,7 @@ AOS.init({
 export default function MainFunction(){
 
     function DownloadCv(){
-        const getPdf = "https://drive.google.com/file/d/1KlOr4ZlK9jmfObn2Xx5KG_RV3mNrnIYR/view?usp=sharing";
+        const getPdf = "https://drive.google.com/file/d/1b-Tcm0RwLCGLwjHBIFP38Ejy_6d3qytm/view?usp=sharing";
         window.open(getPdf);
         return true;
     }
